@@ -1,0 +1,41 @@
+@import "../../global/styles/variables.scss";
+
+
+footer {
+    background-color: $neutralBlack;
+    color: $neutralWhite;
+    font-family: $primaryType;
+   
+
+    .foot-container {
+        max-width: 900px;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .foot-logo {
+        text-align: center;
+        padding: .8rem 0;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+
+        div {
+            margin: 0 .5rem;
+        }
+    }
+
+
+    .footer-txt {
+        display: flex;
+        justify-content: space-between;
+        padding: .8rem 0;
+        font-size: .9rem;
+        font-size: $semiBold;
+    }
+}
