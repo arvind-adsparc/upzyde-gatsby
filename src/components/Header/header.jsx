@@ -12,11 +12,11 @@ const Header = () => {
           />
         </div>
 
-        <nav className="nav-links">
-          <div className="link">HOME</div>
-          <div className="link">CHANNELS</div>
-          <div className="link">BENEFITS</div>
-          <div className="link">HOME</div>
+        <nav className="nav-links flex-container">
+          <div className="link">Home</div>
+          <div className="link">Channels</div>
+          <div className="link">Benefits</div>
+          <div className="link">Contact</div>
         </nav>
       </div>
     </header>
