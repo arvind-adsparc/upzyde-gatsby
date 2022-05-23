@@ -1,7 +1,8 @@
 @import "../../global/styles/variables.scss";
 
 header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     background-color: $neutralWhite;
     padding: 1rem 0;
