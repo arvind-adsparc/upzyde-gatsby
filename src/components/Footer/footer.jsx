@@ -1,12 +1,22 @@
 import React from "react";
-import { TwitterOutlined, FacebookFilled } from "@ant-design/icons";
+import {
+  TwitterOutlined,
+  FacebookFilled,
+  UpCircleFilled,
+} from "@ant-design/icons";
 
 import "./footer.scss";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <footer>
       <div className="foot-container">
+        <div className="scroll-top">
+          <UpCircleFilled onClick={scrollToTop} />
+        </div>
         <div className="foot-logo">
           <img
             src="https://www.upzyde.com/wp-content/uploads/2019/11/logo.png"

@@ -5,6 +5,7 @@ footer {
     background-color: $neutralBlack;
     color: $neutralWhite;
     font-family: $primaryType;
+    padding-top: 3rem;
    
 
     .foot-container {
@@ -12,6 +13,12 @@ footer {
         width: 90%;
         margin: 0 auto;
 
+    }
+
+    .scroll-top {
+        font-size: 2rem;
+        text-align: center;
+        cursor: pointer;
     }
 
     .foot-logo {
