@@ -1,8 +1,5 @@
 const Layout = () => {
+  return <div>Layout goes here</div>;
+};
 
-
-    return <div>Layout goes here </div>
-}
-
-
-export default Layout
+export default Layout;
