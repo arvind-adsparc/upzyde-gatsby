@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/footer";
 import Header from "../Header/header";
 import "./layout.scss";
 
@@ -7,7 +8,7 @@ const Layout = ({ children }) => {
     <div>
       <Header />
       <div className="page-content container">{children}</div>
-      <div>Footer goes here</div>
+      <Footer />
     </div>
   );
 };
