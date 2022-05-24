@@ -3,6 +3,7 @@ import Seo from "../components/SEO/seo";
 import Hero from "../components/Hero/hero";
 import Layout from "../components/Layout/layout";
 import Overview from "../components/Overview/overview";
+import Channels from "../components/Channels/channels";
 
 // styles
 // const pageStyles = {
@@ -25,6 +26,7 @@ const IndexPage = () => {
       <Layout>
         <Hero />
         <Overview />
+        <Channels />
       </Layout>
     </React.Fragment>
   );
