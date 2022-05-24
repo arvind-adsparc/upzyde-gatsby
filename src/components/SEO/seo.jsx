@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const SEO = ({ url, title, description }) => {
+const Seo = ({ url, title, description }) => {
   return (
     <Helmet htmlAttributes={{ lang: "en" }}>
       <meta charSet="utf-8" />
@@ -21,4 +21,4 @@ const SEO = ({ url, title, description }) => {
   );
 };
 
-export default SEO;
+export default Seo;
