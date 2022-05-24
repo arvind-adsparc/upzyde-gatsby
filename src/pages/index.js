@@ -134,7 +134,7 @@ const IndexPage = () => {
       <SEO
         url=""
         title="Header Bidding Solution - Increase your yield by up to 50%!"
-        description=""
+        description="The world around us is constantly changing and the speed at which it changes increases rapidly. In this dynamic and challenging environment, Upzyde connects the dots to ensure publishers maximise yield of their inventory."
       />
 
       <title>Home Page</title>
