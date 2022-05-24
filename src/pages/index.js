@@ -1,7 +1,8 @@
 import * as React from "react";
+import SEO from "../components/SEO/seo";
 import Hero from "../components/Hero/hero";
 import Layout from "../components/Layout/layout";
-import SEO from "../components/SEO/seo";
+import Overview from "../components/Overview/overview";
 
 // styles
 const pageStyles = {
@@ -141,6 +142,7 @@ const IndexPage = () => {
 
       <Layout>
         <Hero />
+        <Overview />
       </Layout>
     </React.Fragment>
   );

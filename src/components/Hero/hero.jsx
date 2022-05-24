@@ -5,7 +5,7 @@ import "./hero.scss";
 const Hero = () => {
   return (
     <section className="hero-section">
-      <div className="hero-content container">
+      <div className="hero-content  inner-container">
         <h1>CHANGE IS THE ONLY CONSTANT</h1>
 
         <p>
