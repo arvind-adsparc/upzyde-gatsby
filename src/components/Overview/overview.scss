@@ -2,7 +2,46 @@
 
 
 .overview-section {
-
+    background-color: $neutralGray;
     font-family: $primaryType;
+    padding: $sectionSpacing 0;
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: $primaryRed;
+        margin-bottom: 2rem;
+
+    }
+
+    .section-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .content-txt {
+        width: 60%;
+        font-family: $secondaryType;
+        font-size: 1rem;
+
+       .divider {
+           margin: 1.5rem 0;
+       }
+
+    }
+
+    .content-img {
+        width: 30%;
+        display: flex;
+        // justify-content: flex-end;
+    }
    
 }
