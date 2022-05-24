@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 import { data } from "./data";
 
 import "./channels.scss";
@@ -15,9 +15,9 @@ const Channels = () => {
             return (
               <div className="card-container" key={info.title}>
                 <div className="card-img">
-                  <StaticImage
+                  <img
                     className=""
-                    src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653389420/Upzyde/display_k1kevw.webp"
+                    src={info.imageUrl}
                     alt={info.title}
                     title={info.title}
                     placeholder="none"
