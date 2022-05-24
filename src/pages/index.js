@@ -1,6 +1,7 @@
 import * as React from "react";
 import Hero from "../components/Hero/hero";
 import Layout from "../components/Layout/layout";
+import SEO from "../components/SEO/seo";
 
 // styles
 const pageStyles = {
@@ -129,13 +130,19 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <React.Fragment>
+      <SEO
+        url=""
+        title="Header Bidding Solution - Increase your yield by up to 50%!"
+        description=""
+      />
+
       <title>Home Page</title>
 
       <Layout>
         <Hero />
       </Layout>
-    </main>
+    </React.Fragment>
   );
 };
 
