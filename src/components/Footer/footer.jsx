@@ -1,4 +1,6 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
+
 import {
   TwitterOutlined,
   FacebookFilled,
@@ -18,9 +20,12 @@ const Footer = () => {
           <UpCircleFilled onClick={scrollToTop} />
         </div>
         <div className="foot-logo">
-          <img
+          <StaticImage
+            className=""
             src="https://www.upzyde.com/wp-content/uploads/2019/11/logo.png"
-            alt=""
+            alt="Upzyde"
+            title="Upzyde"
+            placeholder="none"
           />
         </div>
 

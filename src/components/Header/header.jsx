@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import "./header.scss";
 
 const Header = () => {
@@ -6,9 +7,12 @@ const Header = () => {
     <header>
       <div className="container flex-container">
         <div className="logo">
-          <img
+          <StaticImage
+            className=""
             src="https://www.upzyde.com/wp-content/uploads/2019/11/logo.png"
-            alt=""
+            alt="Upzyde"
+            title="Upzyde"
+            placeholder="none"
           />
         </div>
 
