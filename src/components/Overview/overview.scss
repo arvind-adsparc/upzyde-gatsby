@@ -8,15 +8,15 @@
 
     h2 {
         text-align: center;
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
+        font-size: $sectionTitle;
+        margin-bottom: $margin2x;
     }
 
     h3 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: $sectionSubTitle;
         color: $primaryRed;
-        margin-bottom: 2rem;
+        margin-bottom: $margin2x;
 
     }
 
@@ -30,10 +30,10 @@
     .content-txt {
         width: 60%;
         font-family: $secondaryType;
-        font-size: 1rem;
+        font-size: $sectionPara;
 
        .divider {
-           margin: 1.5rem 0;
+           margin: $margin1halfx 0;
        }
 
     }
