@@ -12,4 +12,12 @@
         margin-bottom: $margin2x;
         text-transform: uppercase;
     }
+
+    .features-content {
+        margin-top: $margin3x;
+        display: grid;
+        grid-template-columns:2fr 2fr;
+        justify-content: space-between;
+        gap: 3rem;
+    }
 }

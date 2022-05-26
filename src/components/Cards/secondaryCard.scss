@@ -1,0 +1,27 @@
+@import "../../global/styles/variables.scss";
+
+
+.sec-cardContainer {
+    background-color: $neutralWhite;
+    box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
+    padding: 2rem;
+    border-radius: 10px;
+    border-top: 5px solid $primary;
+
+
+    .card-title {
+        font-family: $primaryType;
+        font-weight: $semiBold;
+        font-size: $cardTitle;
+        margin: $margin1x 0;
+        color: $neutralBlack;
+
+    }
+
+    .card-txt {
+        font-family: $secondaryType;
+        font-size: $cardPara;
+
+    }
+
+}
