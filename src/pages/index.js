@@ -5,6 +5,7 @@ import Layout from "../components/Layout/layout";
 import Overview from "../components/Overview/overview";
 import Channels from "../components/Channels/channels";
 import Features from "../components/Features/features";
+import Benefits from "../components/Benefits/benefits";
 
 // styles
 // const pageStyles = {
@@ -22,13 +23,12 @@ const IndexPage = () => {
         description="The world around us is constantly changing and the speed at which it changes increases rapidly. In this dynamic and challenging environment, Upzyde connects the dots to ensure publishers maximise yield of their inventory."
       />
 
-      <title>Home Page</title>
-
       <Layout>
         <Hero />
         <Overview />
         <Channels />
         <Features />
+        <Benefits />
       </Layout>
     </React.Fragment>
   );

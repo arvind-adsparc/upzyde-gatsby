@@ -1,0 +1,14 @@
+@import "../../global/styles/variables.scss";
+
+
+.benefits-section {
+    font-family: $primaryType;
+    padding: $sectionSpacing 0;
+
+    h2 {
+        text-align: center;
+        font-size: $sectionTitle;
+        margin-bottom: $margin2x;
+        text-transform: uppercase;
+    }
+}
