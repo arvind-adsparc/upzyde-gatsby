@@ -4,20 +4,13 @@ import "./header.scss";
 
 const Header = () => {
   const handleClick = (selector) => {
-    // const header = document.querySelector(".page-header");
+    const header = window.document.querySelector(".page-header");
 
-    // const headerHeight = header.offsetHeight;
+    const headerHeight = header.offsetHeight;
 
-    // const element = document.querySelector(selector).offsetTop - headerHeight;
+    const element = document.querySelector(selector).offsetTop - headerHeight;
 
-    // document.scroll({ top: element, behavior: "smooth" });
-
-    const element = document.querySelector(selector);
-
-    element.scrollIntoView({
-      block: "start",
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: element, behavior: "smooth" });
   };
 
   return (
