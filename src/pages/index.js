@@ -4,6 +4,7 @@ import Hero from "../components/Hero/hero";
 import Layout from "../components/Layout/layout";
 import Overview from "../components/Overview/overview";
 import Channels from "../components/Channels/channels";
+import Features from "../components/Features/features";
 
 // styles
 // const pageStyles = {
@@ -27,6 +28,7 @@ const IndexPage = () => {
         <Hero />
         <Overview />
         <Channels />
+        <Features />
       </Layout>
     </React.Fragment>
   );

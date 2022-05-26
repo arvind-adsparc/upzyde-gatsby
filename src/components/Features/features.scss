@@ -1,0 +1,15 @@
+@import "../../global/styles/variables.scss";
+
+
+.features-section {
+    font-family: $primaryType;
+    padding: $sectionSpacing 0;
+    background-color: $neutralGray;
+
+    h2 {
+        text-align: center;
+        font-size: $sectionTitle;
+        margin-bottom: $margin2x;
+        text-transform: uppercase;
+    }
+}
