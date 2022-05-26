@@ -1,4 +1,7 @@
 import React from "react";
+import { data } from "./data";
+
+import PrimaryCard from "../Cards/primaryCard";
 import "./benefits.scss";
 
 const Benefits = () => {
@@ -7,7 +10,16 @@ const Benefits = () => {
       <div className="inner-container">
         <h2>UPZYDE BENEFITS</h2>
 
-        <div className="benefits-content"></div>
+        <div className="benefits-content">
+          {data.map((info) => (
+            <PrimaryCard
+              key={info.title}
+              title={info.title}
+              imageUrl={info.imageUrl}
+              description={info.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

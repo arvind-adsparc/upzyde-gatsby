@@ -11,4 +11,11 @@
         margin-bottom: $margin2x;
         text-transform: uppercase;
     }
+
+    .benefits-content {
+        margin: $margin2x 0;
+        display: grid;
+        grid-template-columns:2fr 2fr 2fr;
+        justify-content: space-between;
+    }
 }
