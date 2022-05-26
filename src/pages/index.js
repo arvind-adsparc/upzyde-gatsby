@@ -6,6 +6,7 @@ import Overview from "../components/Overview/overview";
 import Channels from "../components/Channels/channels";
 import Features from "../components/Features/features";
 import Benefits from "../components/Benefits/benefits";
+import About from "../components/About/about";
 
 // styles
 // const pageStyles = {
@@ -29,6 +30,7 @@ const IndexPage = () => {
         <Channels />
         <Features />
         <Benefits />
+        <About />
       </Layout>
     </React.Fragment>
   );

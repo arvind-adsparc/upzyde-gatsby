@@ -1,0 +1,21 @@
+@import "../../global/styles/variables.scss";
+
+
+.about-section {
+    font-family: $primaryType;
+    padding: $sectionSpacing 0;
+    h2 {
+        text-align: center;
+        font-size: $sectionTitle;
+        margin-bottom: $margin2x;
+        text-transform: uppercase;
+    }
+
+    p {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: $sectionSubTitle;
+        font-weight: 300;
+    }
+}
