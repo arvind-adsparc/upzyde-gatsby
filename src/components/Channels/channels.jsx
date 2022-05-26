@@ -12,14 +12,7 @@ const Channels = () => {
 
         <div className="channels-content">
           {data.map((info) => {
-            return (
-              <PrimaryCard
-                key={info.title}
-                title={info.title}
-                imageUrl={info.imageUrl}
-                description={info.description}
-              />
-            );
+            return <PrimaryCard key={info.title} {...info} />;
           })}
         </div>
       </div>

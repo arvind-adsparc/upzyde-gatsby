@@ -12,12 +12,7 @@ const Benefits = () => {
 
         <div className="benefits-content">
           {data.map((info) => (
-            <PrimaryCard
-              key={info.title}
-              title={info.title}
-              imageUrl={info.imageUrl}
-              description={info.description}
-            />
+            <PrimaryCard key={info.title} {...info} />
           ))}
         </div>
       </div>

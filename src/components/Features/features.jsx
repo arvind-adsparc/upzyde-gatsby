@@ -1,4 +1,6 @@
 import React from "react";
+import SecondaryCard from "../Cards/SecondaryCard";
+import { data } from "./data";
 import "./features.scss";
 
 const Features = () => {
@@ -6,6 +8,12 @@ const Features = () => {
     <section className="features-section">
       <div className="inner-container">
         <h2>Key Revenue Boosting Features</h2>
+
+        <div className="features-content">
+          {data.map((info) => (
+            <SecondaryCard key={info.title} {...info} />
+          ))}
+        </div>
       </div>
     </section>
   );
