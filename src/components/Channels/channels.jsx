@@ -3,6 +3,7 @@ import React from "react";
 import { data } from "./data";
 
 import "./channels.scss";
+import PrimaryCard from "../Cards/primaryCard";
 
 const Channels = () => {
   return (
@@ -13,21 +14,12 @@ const Channels = () => {
         <div className="channels-content">
           {data.map((info) => {
             return (
-              <div className="card-container" key={info.title}>
-                <div className="card-img">
-                  <img
-                    className=""
-                    src={info.imageUrl}
-                    alt={info.title}
-                    title={info.title}
-                    placeholder="none"
-                  />
-                </div>
-
-                <div className="card-title">{info.title}</div>
-
-                <div className="card-description">{info.description}</div>
-              </div>
+              <PrimaryCard
+                key={info.title}
+                title={info.title}
+                imageUrl={info.imageUrl}
+                description={info.description}
+              />
             );
           })}
         </div>
