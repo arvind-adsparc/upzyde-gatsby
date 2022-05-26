@@ -13,23 +13,35 @@
     }
 
     .contact-content {
+        margin-top: $margin3x;
         display: flex;
         justify-content: space-between;
+
+        .company-name {
+            color: $primary;
+            font-weight: $semiBold;
+            font-size: $sectionSubTitle;
+            margin-bottom: $margin1halfx;
+        }
+    
+        .address {
+            color: $neutralBlack;
+            font-weight: $regular;
+            font-size: $sectionPara;
+        }
+
+        .form {
+            width: 40%;
+            background-color: $neutralWhite;
+            box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
+            padding: 2rem;
+        }
+      
     }
 
 
-    .company-name {
-        color: $primary;
-        font-weight: $semiBold;
-        font-size: $sectionSubTitle;
-        margin-bottom: $margin1halfx;
-    }
+   
 
-    .address {
-        color: $neutralBlack;
-        font-weight: $regular;
-        font-size: $sectionPara;
-    }
 
   
 
