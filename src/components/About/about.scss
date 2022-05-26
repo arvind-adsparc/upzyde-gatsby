@@ -4,6 +4,8 @@
 .about-section {
     font-family: $primaryType;
     padding: $sectionSpacing 0;
+    background-color: $neutralGray;
+
     h2 {
         text-align: center;
         font-size: $sectionTitle;
