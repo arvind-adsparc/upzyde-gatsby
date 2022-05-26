@@ -12,6 +12,25 @@
         text-transform: uppercase;
     }
 
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .company-name {
+        color: $primary;
+        font-weight: $semiBold;
+        font-size: $sectionSubTitle;
+        margin-bottom: $margin1halfx;
+    }
+
+    .address {
+        color: $neutralBlack;
+        font-weight: $regular;
+        font-size: $sectionPara;
+    }
+
   
 
 }
