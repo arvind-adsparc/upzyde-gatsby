@@ -7,6 +7,7 @@ import Channels from "../components/Channels/channels";
 import Features from "../components/Features/features";
 import Benefits from "../components/Benefits/benefits";
 import About from "../components/About/about";
+import Contact from "../components/Contact/contact";
 
 // styles
 // const pageStyles = {
@@ -31,6 +32,7 @@ const IndexPage = () => {
         <Features />
         <Benefits />
         <About />
+        <Contact />
       </Layout>
     </React.Fragment>
   );

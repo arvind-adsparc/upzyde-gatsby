@@ -51,7 +51,7 @@ const Header = () => {
           </div>
           <div
             className="link"
-            onClick={() => handleClick(".channels-section")}
+            onClick={() => handleClick(".contact-section")}
             role="button"
           >
             Contact
