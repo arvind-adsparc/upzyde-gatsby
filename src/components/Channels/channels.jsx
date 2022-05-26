@@ -1,9 +1,8 @@
 import React from "react";
 // import { StaticImage } from "gatsby-plugin-image";
 import { data } from "./data";
-
-import "./channels.scss";
 import PrimaryCard from "../Cards/primaryCard";
+import "./channels.scss";
 
 const Channels = () => {
   return (
