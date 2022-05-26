@@ -3,8 +3,25 @@ import { StaticImage } from "gatsby-plugin-image";
 import "./header.scss";
 
 const Header = () => {
+  const handleClick = (selector) => {
+    // const header = document.querySelector(".page-header");
+
+    // const headerHeight = header.offsetHeight;
+
+    // const element = document.querySelector(selector).offsetTop - headerHeight;
+
+    // document.scroll({ top: element, behavior: "smooth" });
+
+    const element = document.querySelector(selector);
+
+    element.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <header>
+    <header className="page-header">
       <div className="container flex-container">
         <div className="logo">
           <StaticImage
@@ -17,10 +34,35 @@ const Header = () => {
         </div>
 
         <nav className="nav-links flex-container">
-          <div className="link">Home</div>
-          <div className="link">Channels</div>
-          <div className="link">Benefits</div>
-          <div className="link">Contact</div>
+          <div
+            className="link"
+            hero-section
+            onClick={() => handleClick(".hero-section")}
+            role="button"
+          >
+            Home
+          </div>
+          <div
+            className="link"
+            onClick={() => handleClick(".channels-section")}
+            role="button"
+          >
+            Channels
+          </div>
+          <div
+            className="link"
+            onClick={() => handleClick(".benefits-section")}
+            role="button"
+          >
+            Benefits
+          </div>
+          <div
+            className="link"
+            onClick={() => handleClick(".channels-section")}
+            role="button"
+          >
+            Contact
+          </div>
         </nav>
       </div>
     </header>
