@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="foot-logo">
           <StaticImage
             className=""
-            src="https://www.upzyde.com/wp-content/uploads/2019/11/logo.png"
+            src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653636384/Upzyde/logo_amq5gi.png"
             alt="Upzyde"
             title="Upzyde"
             placeholder="none"
