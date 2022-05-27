@@ -3,7 +3,7 @@
 
 .input-container {
     font-family: $primary;
-    margin-bottom: $margin1x;
+    margin: $margin2x 0;
     label {
         display: block;
         font-size: $default;
@@ -11,7 +11,7 @@
         margin-bottom: $marginhalfx;  
     }
 
-    input {
+    input, textarea {
         width: 100%;
         padding: .4rem;
         border: 2px solid $neutralGray;
@@ -21,4 +21,10 @@
     
         font-weight: $light;
     }
+
+
+    textarea {
+        resize: none;
+    }
+
 }
