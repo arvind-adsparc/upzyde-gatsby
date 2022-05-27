@@ -9,13 +9,6 @@ import Benefits from "../components/Benefits/benefits";
 import About from "../components/About/about";
 import Contact from "../components/Contact/contact";
 
-// styles
-// const pageStyles = {
-//   color: "#232129",
-//   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-// };
-
-// markup
 const IndexPage = () => {
   return (
     <React.Fragment>
