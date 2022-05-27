@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../Input/input";
+import "./form.scss";
 
 const Form = () => {
   return (
@@ -14,6 +15,10 @@ const Form = () => {
         isRequired={false}
         textarea={true}
       />
+
+      <div className="submit-container">
+        <button className="submit-btn">Send</button>
+      </div>
     </div>
   );
 };
