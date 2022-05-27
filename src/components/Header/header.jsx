@@ -1,8 +1,9 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import "./header.scss";
+import { Link } from "gatsby";
 
-const Header = () => {
+const Header = ({ customNavbar }) => {
   const handleClick = (selector) => {
     const header = window.document.querySelector(".page-header");
 
@@ -26,37 +27,43 @@ const Header = () => {
           />
         </div>
 
-        <nav className="nav-links flex-container">
-          <div
-            className="link"
-            hero-section
-            onClick={() => handleClick(".hero-section")}
-            role="button"
-          >
-            Home
+        {customNavbar ? (
+          <div className="back-link">
+            <Link to="/">&larr; Back to Home</Link>{" "}
           </div>
-          <div
-            className="link"
-            onClick={() => handleClick(".channels-section")}
-            role="button"
-          >
-            Channels
-          </div>
-          <div
-            className="link"
-            onClick={() => handleClick(".benefits-section")}
-            role="button"
-          >
-            Benefits
-          </div>
-          <div
-            className="link"
-            onClick={() => handleClick(".contact-section")}
-            role="button"
-          >
-            Contact
-          </div>
-        </nav>
+        ) : (
+          <nav className="nav-links flex-container">
+            <div
+              className="link"
+              hero-section
+              onClick={() => handleClick(".hero-section")}
+              role="button"
+            >
+              Home
+            </div>
+            <div
+              className="link"
+              onClick={() => handleClick(".channels-section")}
+              role="button"
+            >
+              Channels
+            </div>
+            <div
+              className="link"
+              onClick={() => handleClick(".benefits-section")}
+              role="button"
+            >
+              Benefits
+            </div>
+            <div
+              className="link"
+              onClick={() => handleClick(".contact-section")}
+              role="button"
+            >
+              Contact
+            </div>
+          </nav>
+        )}
       </div>
     </header>
   );

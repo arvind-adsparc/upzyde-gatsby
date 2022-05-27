@@ -3,10 +3,10 @@ import Footer from "../Footer/footer";
 import Header from "../Header/header";
 import "./layout.scss";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, customNavbar }) => {
   return (
     <div>
-      <Header />
+      <Header customNavbar={customNavbar} />
       <div className="page-content">{children}</div>
       <Footer />
     </div>

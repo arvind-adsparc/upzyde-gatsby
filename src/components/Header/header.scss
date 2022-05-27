@@ -22,6 +22,16 @@ header {
     width: 50%;
 }
 
+.back-link {
+    font-size: .8rem;
+
+
+    &:hover {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
 .nav-links {
     width: 30%;
     font-size: .8rem;

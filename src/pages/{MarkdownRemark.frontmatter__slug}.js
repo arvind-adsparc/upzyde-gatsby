@@ -17,7 +17,7 @@ const PrivacyPolicy = ({ data }) => {
         title="Privacy Policy | Upzyde"
         description="The world around us is constantly changing and the speed at which it changes increases rapidly. In this dynamic and challenging environment, Upzyde connects the dots to ensure publishers maximise yield of their inventory."
       />
-      <Layout>
+      <Layout customNavbar={true}>
         <div className="inner-container privacy-container">
           <h2>{frontmatter.title}</h2>
 
