@@ -1,0 +1,24 @@
+@import "../../global/styles/variables.scss";
+
+
+.input-container {
+    font-family: $primary;
+    margin-bottom: $margin1x;
+    label {
+        display: block;
+        font-size: $default;
+        font-weight: bold;
+        margin-bottom: $marginhalfx;  
+    }
+
+    input {
+        width: 100%;
+        padding: .4rem;
+        border: 2px solid $neutralGray;
+        outline: none;
+        font-size: $default;
+        font-family: $secondaryType;
+    
+        font-weight: $light;
+    }
+}
