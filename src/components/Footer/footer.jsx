@@ -8,6 +8,7 @@ import {
 } from "@ant-design/icons";
 
 import "./footer.scss";
+import { Link } from "gatsby";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -52,7 +53,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-txt">
-          <div className="privacy-policy">Privacy Policy</div>
+          <div className="privacy-policy">
+            <Link to="/privacy-policy">Privacy Policy</Link>
+          </div>
           <div className="copyright">
             2022 © Copyright. All rights reserved.
           </div>
