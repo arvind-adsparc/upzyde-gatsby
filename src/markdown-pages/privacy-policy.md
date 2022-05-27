@@ -133,3 +133,41 @@ A cookie is a small piece of text that is sent to a user’s browser or device. 
 - Information may also be collected through web beacons, which are small graphic images (“pixel tags”), which usually work together with cookies in order to identify users and user behavior. These may be shared with third parties.
 
 We may use the terms “cookies” to refer to all technologies that we may use to store data in your browser or device or that collect information or help us identify you in the manner described above.
+
+#### How We Use Cookies
+
+Upzyde uses cookies and similar technologies for a number of reasons, for example, in order to help personalize your experience and to help personalize the ads we serve you.
+
+The specific names and types of the cookies, web beacons, and other similar technologies we use may change from time to time. However, the cookies we use generally fall into one of the following categories:
+
+| **Type of Cookie** | **Why We Use These Cookies**                                                                                                                                                                                                                                                                                                         |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Necessary          | These cookies are necessary in order to allow the App to work correctly. They enable you to access the App, move around, and access different services, features, and tools. Examples include remembering previous actions (e.g. entered text) when navigating back to a page in the same session. These cookies cannot be disabled. |
+| Functionality      | These cookies remember your settings and preferences and the choices you make (such as language or regional preferences) in order to help us personalize your experience and offer you enhanced functionality and content.                                                                                                           |
+| Security           | These cookies can help us identify and prevent security risks. They may be used to store your session information to prevent others from changing your password without your login information.                                                                                                                                      |
+| Performance        | These cookies can help us collect information to help us understand how you use our App, such as whether you have viewed messages or specific pages and how long you spent on each page. This helps us improve the performance of our App.                                                                                           |
+| Analytics          | These cookies help us learn more about which features are popular with our users and how our App can be improved.                                                                                                                                                                                                                    |
+
+#### How to Adjust Your Preferences
+
+Most Web browsers are initially configured to accept cookies, but you can change this setting so your browser either refuses all cookies or informs you when a cookie is being sent. In addition, you are free to delete any existing cookies at any time. Please note that some features of the Services may function improperly when cookies are disabled or removed.
+Third Party Cookies
+Google Analytics places cookies for Analytics purposes.
+
+#### Third-Party Applications and Services
+
+All use of third-party applications or services is at your own risk and subject to such third party’s privacy policies.
+
+#### Children
+
+We do not knowingly collect personally-identifiable information from children under the age of sixteen (16). In the event that you become aware that an individual under the age of sixteen (16) has enrolled without parental permission, please advise us immediately.
+
+#### Changes
+
+When submitting information through the Site, you shall be asked to accept the terms of this Privacy Notice. If you do not agree with the terms hereof, please do not use the Site. We may update this Privacy Notice from time to time, in which case, we shall notify you of such changes. We will post the updated Privacy Notice on this page. Please come back to this page every now and then to make sure you are familiar with the latest version. Any new Privacy Notice will be effective from the date it is accepted by you.
+
+#### Comments and Questions
+
+If you have any comments or questions about our privacy policy, or if you wish for us to amend or delete your Personal Information, please contact us at [legal@upzyde.com](mailto:legal@upzyde.com).
+
+Last updated: May 2018
