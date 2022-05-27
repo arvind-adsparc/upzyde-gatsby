@@ -1,0 +1,26 @@
+
+@import "../global/styles//variables.scss";
+
+
+.privacy-container {
+    margin: $margin2x auto;
+    font-family: $primaryType;
+
+    h2 {
+        font-size: $sectionTitle;
+    }
+
+
+    .section-content {
+        margin: $margin2x 0;
+
+        h3, h4 {
+            margin-top: $margin2x;
+        }
+
+        p {
+            margin: $margin1x 0;
+            letter-spacing: 1.5px;
+        }
+    }
+}
