@@ -20,6 +20,9 @@ header {
 
 .logo {
     width: 50%;
+    @media only screen and (max-width: $desktopSmall) {
+        width: 30%;
+      }
 }
 
 .back-link {
@@ -36,6 +39,10 @@ header {
     width: 30%;
     font-size: .8rem;
     font-weight: $semiBold;
+
+    @media only screen and (max-width: $desktopSmall) {
+        width: 40%;
+      }
 
     .link {
         text-transform: uppercase;
