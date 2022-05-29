@@ -32,37 +32,44 @@ const Header = ({ customNavbar }) => {
             <Link to="/">&larr; Back to Home</Link>{" "}
           </div>
         ) : (
-          <nav className="nav-links flex-container">
-            <div
-              className="link"
-              hero-section
-              onClick={() => handleClick(".hero-section")}
-              role="button"
-            >
-              Home
+          <>
+            <div className="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-            <div
-              className="link"
-              onClick={() => handleClick(".channels-section")}
-              role="button"
-            >
-              Channels
-            </div>
-            <div
-              className="link"
-              onClick={() => handleClick(".benefits-section")}
-              role="button"
-            >
-              Benefits
-            </div>
-            <div
-              className="link"
-              onClick={() => handleClick(".contact-section")}
-              role="button"
-            >
-              Contact
-            </div>
-          </nav>
+            <nav className="nav-links desktop-nav flex-container">
+              <div
+                className="link"
+                hero-section
+                onClick={() => handleClick(".hero-section")}
+                role="button"
+              >
+                Home
+              </div>
+              <div
+                className="link"
+                onClick={() => handleClick(".channels-section")}
+                role="button"
+              >
+                Channels
+              </div>
+              <div
+                className="link"
+                onClick={() => handleClick(".benefits-section")}
+                role="button"
+              >
+                Benefits
+              </div>
+              <div
+                className="link"
+                onClick={() => handleClick(".contact-section")}
+                role="button"
+              >
+                Contact
+              </div>
+            </nav>
+          </>
         )}
       </div>
     </header>

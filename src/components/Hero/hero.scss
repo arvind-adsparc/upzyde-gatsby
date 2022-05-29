@@ -18,6 +18,9 @@
     @media only screen and (max-width: $desktopSmall) {
       padding: 2rem;
     }
+    @media only screen and (max-width: $mobile) {
+      padding: 2rem 1rem;
+    }
 
     h1 {
       font-family: $primaryType;

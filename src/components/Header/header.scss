@@ -33,6 +33,29 @@ header {
   }
 }
 
+.desktop-nav {
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  width: 1.5rem;
+  cursor: pointer;
+
+  @media only screen and (max-width: $mobile) {
+    display: block;
+  }
+
+  span {
+    display: block;
+    height: 0.2rem;
+    background-color: $primary;
+    margin: 0.3rem 0;
+  }
+}
+
 .nav-links {
   width: 30%;
   font-size: 0.8rem;
@@ -40,10 +63,6 @@ header {
 
   @media only screen and (max-width: $desktopSmall) {
     width: 40%;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    display: none;
   }
 
   .link {
