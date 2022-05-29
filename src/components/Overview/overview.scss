@@ -41,6 +41,7 @@
     width: 60%;
     font-family: $secondaryType;
     font-size: $sectionPara;
+    font-weight: $light;
     @media only screen and (max-width: $mobile) {
       width: 100%;
     }
