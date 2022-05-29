@@ -11,6 +11,7 @@ const PrimaryCard = ({ title, imageUrl, description }) => {
           alt={title}
           title={title}
           placeholder="none"
+          loading="lazy"
         />
       </div>
 
