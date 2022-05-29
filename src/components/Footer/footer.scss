@@ -1,48 +1,48 @@
 @import "../../global/styles/variables.scss";
 
-
 footer {
-    background-color: $neutralBlack;
-    color: $neutralWhite;
-    font-family: $primaryType;
-    padding-top: 3rem;
-   
+  background-color: $neutralBlack;
+  color: $neutralWhite;
+  font-family: $primaryType;
+  padding-top: 3rem;
 
-    .foot-container {
-        max-width: 900px;
-        width: 90%;
-        margin: 0 auto;
+  .foot-container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+  }
 
+  .scroll-top {
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .foot-logo {
+    text-align: center;
+    padding: 0.8rem 0;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+    div {
+      margin: 0 0.5rem;
     }
+  }
 
-    .scroll-top {
-        font-size: 2rem;
-        text-align: center;
-        cursor: pointer;
+  .footer-txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+    font-family: $semiBold;
+    @media only screen and (max-width: $mobile) {
+      font-size: 0.8rem;
+      margin-top: $margin1x;
     }
-
-    .foot-logo {
-        text-align: center;
-        padding: .8rem 0;
-    }
-
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-
-        div {
-            margin: 0 .5rem;
-        }
-    }
-
-
-    .footer-txt {
-        display: flex;
-        justify-content: space-between;
-        padding: .8rem 0;
-        font-size: .9rem;
-        font-size: $semiBold;
-    }
+  }
 }

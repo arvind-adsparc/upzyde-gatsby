@@ -1,52 +1,55 @@
-
 @import "../global/styles//variables.scss";
 
-
 .privacy-container {
-    margin: $margin2x auto;
-    font-family: $primaryType;
+  margin: $margin2x auto;
+  font-family: $primaryType;
 
-    h2 {
-        font-size: $sectionTitle;
+  h2 {
+    font-size: $sectionTitle;
+  }
+
+  .section-content {
+    margin: $margin2x 0;
+
+    ul {
+      padding-left: 1.5rem;
     }
 
-
-    .section-content {
-        margin: $margin2x 0;
-
-        a {
-            text-decoration: underline;
-            color: $primary;
-        }
-
-        h3, h4 {
-            margin-top: $margin2x;
-        }
-
-        p {
-            margin: $margin1x 0;
-            letter-spacing: 1.5px;
-        }
-
-        table {
-            width: 100%;
-            margin: $margin2x 0;
-        }
-
-        th {
-            padding: 1rem;
-        }
-
-        th:first-child {
-            width: 20%
-        }
-
-        td {
-            padding: 1rem;
-        }
-        
-        table, td, th {
-            border: 1px solid rgba(0,0,0,.1);
-        }
+    a {
+      color: $primary;
     }
+
+    h3,
+    h4 {
+      margin-top: $margin2x;
+    }
+
+    p {
+      margin: $margin1x 0;
+      letter-spacing: 1.5px;
+    }
+
+    table {
+      width: 100%;
+      margin: $margin2x 0;
+    }
+
+    th {
+      padding: 1rem;
+    }
+
+    th:first-child {
+      width: 20%;
+    }
+
+    td {
+      padding: 1rem;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
 }
