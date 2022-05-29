@@ -1,23 +1,32 @@
 @import "../../global/styles/variables.scss";
 
-
 .features-section {
-    font-family: $primaryType;
-    padding: $sectionSpacing 0;
-    background-color: $neutralGray;
+  font-family: $primaryType;
+  padding: $sectionSpacing 0;
+  background-color: $neutralGray;
+  @media only screen and (max-width: $desktopSmall) {
+    padding: $sectionSpacingSmall 0;
+  }
 
-    h2 {
-        text-align: center;
-        font-size: $sectionTitle;
-        margin-bottom: $margin2x;
-        text-transform: uppercase;
+  h2 {
+    text-align: center;
+    font-size: $sectionTitle;
+    margin-bottom: $margin2x;
+    text-transform: uppercase;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionTitleSmall;
     }
+  }
 
-    .features-content {
-        margin-top: $margin3x;
-        display: grid;
-        grid-template-columns:2fr 2fr;
-        justify-content: space-between;
-        gap: 3rem;
+  .features-content {
+    margin-top: $margin3x;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-between;
+    gap: 3rem;
+    @media only screen and (max-width: $mobile) {
+      grid-template-columns: 1fr;
+      gap: 2rem;
     }
+  }
 }

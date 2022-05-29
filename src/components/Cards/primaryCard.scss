@@ -32,7 +32,7 @@
     margin: $margin1x 0;
     color: $neutralBlack;
 
-    @media only screen and (max-width: $mobile) {
+    @media only screen and (max-width: $desktopSmall) {
       font-size: $cardTitleSmall;
     }
   }
@@ -41,7 +41,7 @@
     font-family: $secondaryType;
     font-size: $cardPara;
     font-weight: $light;
-    @media only screen and (max-width: $mobile) {
+    @media only screen and (max-width: $desktopSmall) {
       font-size: $cardParaSmall;
     }
   }
