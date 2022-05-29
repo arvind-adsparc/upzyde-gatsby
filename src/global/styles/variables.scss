@@ -1,13 +1,15 @@
-
-
-
 // colors
-$primary: #1995ad; 
+$primary: #1995ad;
 $primaryRed: #ff420e;
 $neutralWhite: #ffffff;
 $neutralBlack: #262626;
-$neutralGray: #F2F2F2;
+$neutralGray: #f2f2f2;
 
+// screen sizes
+$desktopMedium: 1200px;
+$desktopSmall: 1000px;
+$mobile: 800px;
+$mobileMedium: 600px;
 
 // font types
 $primaryType: Raleway; // sans-serif
@@ -19,32 +21,22 @@ $regular: 400;
 $semiBold: 600;
 $bold: 800;
 
-
 // spacing
 $sectionSpacing: 4rem;
+$sectionSpacingSmall: 2rem;
 $margin3x: 3rem;
 $margin2x: 2rem;
 $margin1halfx: 1.5rem;
 $margin1x: 1rem;
-$marginhalfx: .5rem;
-
+$marginhalfx: 0.5rem;
 
 // font sizing
-$heroTitle:  2.8rem;
+$heroTitle: 2.8rem;
 $heroSubTitle: 1.3rem;
 $sectionTitle: 1.8rem;
+$sectionTitleSmall: 1.4rem;
 $sectionSubTitle: 1.5rem;
 $sectionPara: 1rem;
-
-$default:  1rem;
-
+$default: 1rem;
 $cardTitle: 1.4rem;
 $cardPara: 1rem;
-
-
-
-// screen sizes
-$desktopMedium: 1200px;
-$desktopSmall: 1000px;
-$mobile: 800px;
-$mobileMedium: 600px;

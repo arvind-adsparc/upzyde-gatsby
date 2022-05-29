@@ -1,47 +1,55 @@
 @import "../../global/styles/variables.scss";
 
-
 .overview-section {
-    background-color: $neutralGray;
-    font-family: $primaryType;
-    padding: $sectionSpacing 0;
+  background-color: $neutralGray;
+  font-family: $primaryType;
+  padding: $sectionSpacing 0;
 
-    h2 {
-        text-align: center;
-        font-size: $sectionTitle;
-        margin-bottom: $margin2x;
+  @media only screen and (max-width: $desktopSmall) {
+    padding: $sectionSpacingSmall 0;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: $sectionTitle;
+    margin-bottom: $margin2x;
+    @media only screen and (max-width: $desktopSmall) {
+      padding: $sectionTitleSmall;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-size: $sectionSubTitle;
+    color: $primaryRed;
+    margin-bottom: $margin2x;
+  }
+
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media only screen and (max-width: $mobile) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .content-txt {
+    width: 60%;
+    font-family: $secondaryType;
+    font-size: $sectionPara;
+    @media only screen and (max-width: $mobile) {
+      width: 100%;
     }
 
-    h3 {
-        text-align: center;
-        font-size: $sectionSubTitle;
-        color: $primaryRed;
-        margin-bottom: $margin2x;
-
+    .divider {
+      margin: $margin1halfx 0;
     }
+  }
 
-    .section-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-    }
-
-    .content-txt {
-        width: 60%;
-        font-family: $secondaryType;
-        font-size: $sectionPara;
-
-       .divider {
-           margin: $margin1halfx 0;
-       }
-
-    }
-
-    .content-img {
-        width: 30%;
-        display: flex;
-        // justify-content: flex-end;
-    }
-   
+  .content-img {
+    width: 30%;
+    display: flex;
+    // justify-content: flex-end;
+  }
 }

@@ -1,44 +1,42 @@
 @import "../../global/styles/variables.scss";
 
-
 .hero-section {
-    background-image:  url(https://res.cloudinary.com/dqove2qhg/image/upload/v1653636304/Upzyde/section01-bg_tqficl.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 6rem 0; 
-    text-align: center;
+  background-image: url(https://res.cloudinary.com/dqove2qhg/image/upload/v1653636304/Upzyde/section01-bg_tqficl.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 0;
+  text-align: center;
 
-
-    .hero-content {
-        background-color: rgba($color: $neutralBlack, $alpha: .85);
-        // border-radius: 20px;
-        padding: 4rem;
-        // max-width: 1100px;
-        // width: 90%;
-        color: $neutralWhite;
-        @media only screen and (max-width: $desktopSmall) {
-            padding: 2rem;
-          }
-
-        h1 {
-            font-family: $primaryType;
-            font-size: $heroTitle;
-            margin-bottom: .8rem;
-            // color: $primaryRed;
-            // color: $primary;
-            @media only screen and (max-width: $desktopSmall) {
-                font-size: 2rem;
-              }
-        }
-
-        p {
-           font-family:  $secondaryType;
-           font-size: $heroSubTitle;
-           letter-spacing: 1px;
-           @media only screen and (max-width: $desktopSmall) {
-            font-size: 1rem;
-          }
-        }
+  .hero-content {
+    background-color: rgba($color: $neutralBlack, $alpha: 0.85);
+    // border-radius: 20px;
+    padding: 4rem;
+    // max-width: 1100px;
+    // width: 90%;
+    color: $neutralWhite;
+    @media only screen and (max-width: $desktopSmall) {
+      padding: 2rem;
     }
+
+    h1 {
+      font-family: $primaryType;
+      font-size: $heroTitle;
+      margin-bottom: 0.8rem;
+      // color: $primaryRed;
+      // color: $primary;
+      @media only screen and (max-width: $desktopSmall) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-family: $secondaryType;
+      font-size: $heroSubTitle;
+      letter-spacing: 1px;
+      @media only screen and (max-width: $desktopSmall) {
+        font-size: 1rem;
+      }
+    }
+  }
 }
