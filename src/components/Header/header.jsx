@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import "./header.scss";
 import { Link } from "gatsby";
 
 const Header = ({ customNavbar }) => {
+  const [openMobNav, setOpenMobNav] = useState(false);
   const handleClick = (selector) => {
     const header = window.document.querySelector(".page-header");
 
@@ -16,6 +17,7 @@ const Header = ({ customNavbar }) => {
 
   return (
     <header className="page-header">
+      <div className="inner-header"></div>
       <div className="container flex-container">
         <div className="logo">
           <StaticImage
@@ -33,10 +35,42 @@ const Header = ({ customNavbar }) => {
           </div>
         ) : (
           <>
-            <div className="mobile-nav">
+            <div
+              onClick={() => setOpenMobNav(!openMobNav)}
+              className="mobile-nav"
+            >
               <span></span>
               <span></span>
               <span></span>
+
+              {openMobNav && (
+                <div className="mobile-nav-links">
+                  <div
+                    onClick={() => handleClick(".hero-section")}
+                    className="link"
+                  >
+                    Home
+                  </div>
+                  <div
+                    className="link"
+                    onClick={() => handleClick(".channels-section")}
+                  >
+                    Channels
+                  </div>
+                  <div
+                    className="link"
+                    onClick={() => handleClick(".benefits-section")}
+                  >
+                    Benefits
+                  </div>
+                  <div
+                    className="link"
+                    onClick={() => handleClick(".contact-section")}
+                  >
+                    Contact
+                  </div>
+                </div>
+              )}
             </div>
             <nav className="nav-links desktop-nav flex-container">
               <div
