@@ -1,26 +1,31 @@
 @import "../../global/styles/variables.scss";
 
-
 .channels-section {
-    font-family: $primaryType;
-    padding: $sectionSpacing 0;
+  font-family: $primaryType;
+  padding: $sectionSpacing 0;
+  @media only screen and (max-width: $desktopSmall) {
+    padding: $sectionSpacingSmall 0;
+  }
 
-    h2 {
-        text-align: center;
-        font-size: $sectionTitle;
-        margin-bottom: $margin2x;
-        text-transform: uppercase;
+  h2 {
+    text-align: center;
+    font-size: $sectionTitle;
+    margin-bottom: $margin2x;
+    text-transform: uppercase;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionTitleSmall;
     }
+  }
 
-    .channels-content {
-        margin: $margin2x 0;
-        display: grid;
-        grid-template-columns:2fr 2fr;
-        // display: flex;
-        justify-content: space-between;
-        // align-items: center;
-
-       
+  .channels-content {
+    margin: $margin2x 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    // display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    @media only screen and (max-width: $mobile) {
+      grid-template-columns: 1fr;
     }
-
+  }
 }

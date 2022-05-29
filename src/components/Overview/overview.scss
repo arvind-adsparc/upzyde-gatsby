@@ -14,7 +14,7 @@
     font-size: $sectionTitle;
     margin-bottom: $margin2x;
     @media only screen and (max-width: $desktopSmall) {
-      padding: $sectionTitleSmall;
+      font-size: $sectionTitleSmall;
     }
   }
 
@@ -23,6 +23,9 @@
     font-size: $sectionSubTitle;
     color: $primaryRed;
     margin-bottom: $margin2x;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionSubTitleSmall;
+    }
   }
 
   .section-content {
