@@ -1,48 +1,64 @@
 @import "../../global/styles/variables.scss";
 
-
 .contact-section {
-    font-family: $primaryType;
-    padding: $sectionSpacing 0;
+  font-family: $primaryType;
+  padding: $sectionSpacing 0;
+  @media only screen and (max-width: $desktopSmall) {
+    padding: $sectionSpacingSmall 0;
+  }
 
-    h2 {
-        text-align: center;
-        font-size: $sectionTitle;
-        margin-bottom: $margin2x;
-        text-transform: uppercase;
+  h2 {
+    text-align: center;
+    font-size: $sectionTitle;
+    margin-bottom: $margin2x;
+    text-transform: uppercase;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionTitleSmall;
+    }
+  }
+
+  .contact-content {
+    margin-top: $margin3x;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $mobile) {
+      display: block;
     }
 
-    .contact-content {
-        margin-top: $margin3x;
-        display: flex;
-        justify-content: space-between;
-
-        .company-name {
-            color: $primary;
-            font-weight: $semiBold;
-            font-size: $sectionSubTitle;
-            margin-bottom: $margin1halfx;
-        }
-    
-        .address {
-            color: $neutralBlack;
-            font-weight: $regular;
-            font-size: $sectionPara;
-        }
-
-        .form {
-            width: 40%;
-            background-color: $neutralWhite;
-            box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
-            padding: 2rem;
-        }
-      
+    .company-name {
+      color: $primary;
+      font-weight: $semiBold;
+      font-size: $sectionSubTitle;
+      margin-bottom: $margin1halfx;
+      @media only screen and (max-width: $desktopSmall) {
+        font-size: $sectionSubTitleSmall;
+      }
     }
 
+    .address {
+      color: $neutralBlack;
+      font-weight: $regular;
+      font-size: $sectionPara;
+      @media only screen and (max-width: $desktopSmall) {
+        font-size: $sectionParaSmall;
+      }
+    }
 
-   
+    .form {
+      width: 40%;
+      background-color: $neutralWhite;
+      box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
+      padding: 2rem;
+      @media only screen and (max-width: $desktopSmall) {
+        width: 50%;
+        padding: 1.5rem;
+      }
 
-
-  
-
+      @media only screen and (max-width: $mobile) {
+        width: 100%;
+        margin: $margin2x 0;
+      }
+    }
+  }
 }

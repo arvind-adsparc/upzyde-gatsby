@@ -1,24 +1,33 @@
 @import "../../global/styles/variables.scss";
 
-
 .about-section {
-    font-family: $primaryType;
-    padding: $sectionSpacing 0;
-    background-color: $neutralGray;
+  font-family: $primaryType;
+  padding: $sectionSpacing 0;
+  background-color: $neutralGray;
+  @media only screen and (max-width: $desktopSmall) {
+    padding: $sectionSpacingSmall 0;
+  }
 
-    h2 {
-        text-align: center;
-        font-size: $sectionTitle;
-        margin-bottom: $margin2x;
-        text-transform: uppercase;
+  h2 {
+    text-align: center;
+    font-size: $sectionTitle;
+    margin-bottom: $margin2x;
+    text-transform: uppercase;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionTitleSmall;
     }
+  }
 
-    p {
-        width: 70%;
-        text-align: center;
-        margin: 0 auto;
-        font-size: $sectionSubTitle;
-        font-weight: 300;
-        font-family: $secondaryType;
+  p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: $sectionSubTitle;
+    font-weight: 300;
+    font-family: $secondaryType;
+    @media only screen and (max-width: $desktopSmall) {
+      font-size: $sectionSubTitleSmall;
+      width: 100%;
     }
+  }
 }
