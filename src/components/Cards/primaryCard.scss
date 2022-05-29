@@ -1,34 +1,48 @@
 @import "../../global/styles/variables.scss";
 
-
 .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // justify-content: center;
-    padding: 3rem;
-    text-align: center;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 10px;
 
-    &:hover {
-        box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
-    }
+  @media only screen and (max-width: $mobile) {
+    padding: 2rem;
+  }
 
-    .card-img {
-        width: 20%;
-    }
+  &:hover {
+    box-shadow: 4px 4px 20px rgb(0 0 0 / 10%);
+  }
 
-    .card-title {
-        font-family: $primaryType;
-        font-weight: $semiBold;
-        font-size: $cardTitle;
-        margin: $margin1x 0;
-        color: $neutralBlack;
-    }
+  .card-img {
+    width: 20%;
 
-    .card-description {
-        font-family: $secondaryType;
-        font-size: $cardPara;
-        font-weight: $light;
+    @media only screen and (max-width: $mobile) {
+      width: 18%;
     }
+  }
+
+  .card-title {
+    font-family: $primaryType;
+    font-weight: $semiBold;
+    font-size: $cardTitle;
+    margin: $margin1x 0;
+    color: $neutralBlack;
+
+    @media only screen and (max-width: $mobile) {
+      font-size: $cardTitleSmall;
+    }
+  }
+
+  .card-description {
+    font-family: $secondaryType;
+    font-size: $cardPara;
+    font-weight: $light;
+    @media only screen and (max-width: $mobile) {
+      font-size: $cardParaSmall;
+    }
+  }
 }
