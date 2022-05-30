@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 import "./header.scss";
 import { Link } from "gatsby";
 
@@ -20,7 +20,14 @@ const Header = ({ customNavbar }) => {
       <div className="inner-header"></div>
       <div className="container flex-container">
         <div className="logo">
-          <StaticImage
+          {/* <StaticImage
+            className=""
+            src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653636384/Upzyde/logo_amq5gi.png"
+            alt="Upzyde"
+            title="Upzyde"
+            placeholder="none"
+          /> */}
+          <img
             className=""
             src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653636384/Upzyde/logo_amq5gi.png"
             alt="Upzyde"
