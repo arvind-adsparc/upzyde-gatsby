@@ -1,14 +1,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-
-import {
-  TwitterOutlined,
-  FacebookFilled,
-  UpCircleFilled,
-} from "@ant-design/icons";
-
-import "./footer.scss";
 import { Link } from "gatsby";
+import "./footer.scss";
 
 const Footer = () => {
   const scrollToTop = () => {
