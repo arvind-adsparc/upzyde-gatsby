@@ -1,16 +1,25 @@
 @import "../../global/styles/variables.scss";
 
 .hero-section {
-  background-image: url(https://res.cloudinary.com/dqove2qhg/image/upload/v1653636304/Upzyde/section01-bg_tqficl.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 6rem 0;
+  // background-image: url(https://res.cloudinary.com/dqove2qhg/image/upload/v1653636304/Upzyde/section01-bg_tqficl.webp);
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // padding: 6rem 0;
   text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100vw;
+    height: 70vh;
+  }
 
   .hero-content {
+    position: absolute;
+
     background-color: rgba($color: $neutralBlack, $alpha: 0.85);
-    // border-radius: 20px;
     padding: 4rem;
     // max-width: 1100px;
     // width: 90%;
