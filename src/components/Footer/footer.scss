@@ -13,9 +13,10 @@ footer {
   }
 
   .scroll-top {
-    font-size: 2rem;
-    text-align: center;
+    // font-size: 2rem;
     cursor: pointer;
+    width: 2rem;
+    margin: 0 auto;
   }
 
   .foot-logo {
@@ -31,6 +32,7 @@ footer {
 
     div {
       margin: 0 0.5rem;
+      width: 2rem;
     }
   }
 

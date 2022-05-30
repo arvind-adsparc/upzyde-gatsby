@@ -17,8 +17,12 @@ const Footer = () => {
   return (
     <footer>
       <div className="foot-container">
-        <div className="scroll-top">
-          <UpCircleFilled onClick={scrollToTop} />
+        <div className="scroll-top" onClick={scrollToTop} aria-hidden="true">
+          <StaticImage
+            src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653905614/Upzyde/scrolltoTop_h5ii8h.png"
+            alt="Scoll to Top"
+            placeholder="none"
+          />
         </div>
         <div className="foot-logo">
           <StaticImage
@@ -37,7 +41,13 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <TwitterOutlined />
+              <StaticImage
+                className=""
+                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653905614/Upzyde/twitter_sht2wt.png"
+                alt="Twiiter"
+                placeholder="none"
+              />
+              {/* <TwitterOutlined /> */}
             </a>
           </div>
 
@@ -47,7 +57,13 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FacebookFilled />
+              <StaticImage
+                className=""
+                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1653905614/Upzyde/facebook_fvynwg.png"
+                alt="Facebook"
+                placeholder="none"
+              />
+              {/* <FacebookFilled /> */}
             </a>
           </div>
         </div>
