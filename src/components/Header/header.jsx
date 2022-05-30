@@ -45,6 +45,7 @@ const Header = ({ customNavbar }) => {
             <div
               onClick={() => setOpenMobNav(!openMobNav)}
               className="mobile-nav"
+              aria-hidden="true"
             >
               <span></span>
               <span></span>
@@ -55,24 +56,28 @@ const Header = ({ customNavbar }) => {
                   <div
                     onClick={() => handleClick(".hero-section")}
                     className="link"
+                    aria-hidden="true"
                   >
                     Home
                   </div>
                   <div
                     className="link"
                     onClick={() => handleClick(".channels-section")}
+                    aria-hidden="true"
                   >
                     Channels
                   </div>
                   <div
                     className="link"
                     onClick={() => handleClick(".benefits-section")}
+                    aria-hidden="true"
                   >
                     Benefits
                   </div>
                   <div
                     className="link"
                     onClick={() => handleClick(".contact-section")}
+                    aria-hidden="true"
                   >
                     Contact
                   </div>
@@ -84,28 +89,28 @@ const Header = ({ customNavbar }) => {
                 className="link"
                 hero-section
                 onClick={() => handleClick(".hero-section")}
-                role="button"
+                aria-hidden="true"
               >
                 Home
               </div>
               <div
                 className="link"
                 onClick={() => handleClick(".channels-section")}
-                role="button"
+                aria-hidden="true"
               >
                 Channels
               </div>
               <div
                 className="link"
                 onClick={() => handleClick(".benefits-section")}
-                role="button"
+                aria-hidden="true"
               >
                 Benefits
               </div>
               <div
                 className="link"
                 onClick={() => handleClick(".contact-section")}
-                role="button"
+                aria-hidden="true"
               >
                 Contact
               </div>
