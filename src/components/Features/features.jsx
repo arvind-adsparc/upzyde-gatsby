@@ -1,5 +1,5 @@
 import React from "react";
-import SecondaryCard from "../Cards/SecondaryCard";
+import SecondaryCard from "../Cards/secondaryCard";
 import { data } from "./data";
 import "./features.scss";
 
